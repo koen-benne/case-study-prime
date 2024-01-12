@@ -1,0 +1,36 @@
+.container {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  grid-column-gap: 20px;
+  grid-row-gap: 15px;
+  text-align: center;
+}
+
+.title {
+  margin-top: 100px;
+  text-align: center;
+}
+
+@media(min-width: 830px) {
+  .container {
+    max-width: 1512px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-column-gap: 41px;
+    grid-row-gap: 20px;
+    text-align: center;
+  }
+
+  .title {
+    text-align: center;
+  }
+}

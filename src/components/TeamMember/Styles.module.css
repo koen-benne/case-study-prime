@@ -1,0 +1,42 @@
+.container {
+  height: 100%;
+}
+
+.content {
+  padding: 5px 5px 1px 5px;
+  background: linear-gradient(250deg, #B318EA, #1AAD9C);
+  align-items: center;
+  border-width: 5px;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.image {
+  border-radius: 15px;
+  width: 100%;
+  height: auto;
+  align-self: flex-end;
+  /* bottom: 0; */
+}
+
+.name {
+  font-size: 1.8em;
+  font-weight: 650;
+}
+
+.study {
+  margin: 5px 0 0 0;
+  font-size: 1.2em;
+}
+
+@media(min-width: 830px) {
+  .content {
+    border-width: 7px;
+    border-radius: 40px;
+    padding: 10px 10px 5px 10px;
+  }
+
+  .image {
+    border-radius: 35px;
+  }
+}

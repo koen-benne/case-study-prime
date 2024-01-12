@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  gap: 50px;
+  flex-direction: row;
+  align-items: start;
+
+  .card {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+    flex: 1 1 0px;
+    border-radius: 20px;
+    background-color: #2DB2A2;
+
+    .textContainer {
+      display: flex;
+      align-items: center;
+
+      min-height: 150px;
+      width: calc(100% - 50px);
+      border-radius: 20px 0 0 20px;
+      background-color: white;
+      .text {
+        marin: 0;
+        padding: 20px;
+        text-align: left;
+      }
+    }
+  }
+}

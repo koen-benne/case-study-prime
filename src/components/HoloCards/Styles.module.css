@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  gap: 50px;
+  flex-direction: row;
+  align-items: start;
+
+  .card {
+    position: relative;
+    flex: 1 1 0px;
+    border-radius: 30px;
+    background: linear-gradient(250deg, #B318EA, #1AAD9C);
+    min-height: 420px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+      background-color: white;
+      opacity: 0.6;
+    }
+
+    .title {
+      z-index: 1;
+      position: relative;
+      font-size: 1.8em;
+      font-weight: 600;
+      margin: 50px 30px 0px 20px;
+      padding-bottom: 15px;
+      text-align: center;
+      color: black;
+      border-bottom: 1px solid black;
+    }
+
+    .text {
+      z-index: 1;
+      position: relative;
+      margin: 0;
+      padding: 30px;
+      text-align: center;
+      color: black;
+    }
+  }
+}

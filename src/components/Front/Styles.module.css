@@ -1,0 +1,114 @@
+.container {
+  background-image: url(../../../public/images/Background.png);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+  min-height: calc(100vh - 140px);
+  text-align: left;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.collabLogo {
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+}
+
+.left {
+  margin-top: 8vh;
+  width: 100%;
+}
+
+.right {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+
+.remobilityLogo {
+  width: calc(100% - 70px);
+  padding: 0 35px;
+  position: relative;
+  z-index: 1;
+}
+
+.text {
+  line-height: 1.5em;
+  font-size: 1.35em;
+  padding: 0 35px;
+  text-align: center;
+  width: 80%;
+  z-index: 5;
+  position: relative;
+}
+
+@media (min-width: 1700px) {
+  .heroImage {
+    margin-top: 100px !important;
+  }
+}
+
+@media (min-width: 1042px) {
+  .container {
+    min-height: calc(100vh - 210px) !important;
+    flex-direction: row;
+  }
+
+  .remobilityLogo {
+    padding: 150px 100px 0 100px !important;
+    width: 80% !important;
+  }
+
+  .text {
+    text-align: left !important;
+    width: 50% !important;
+  }
+
+  .heroImage {
+    margin-top: 130px;
+  }
+  .collabLogo {
+    bottom: 80px;
+    left: 100px;
+  }
+
+}
+
+@media (min-width: 480px) {
+  .container {
+    min-height: calc(100vh - 130px);
+  }
+
+  .left {
+    width: 100%;
+    height: auto;
+  }
+
+  .right {
+    width: calc(100% - 200px);
+    align-items: center;
+    height: auto;
+    padding: 0 100px 0 100px;
+    .heroImage {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .remobilityLogo {
+    padding: 0 100px 0 100px;
+    width: calc(100% - 200px);
+  }
+
+  .text {
+    font-size: 2em;
+    padding: 0 100px;
+    width: auto;
+    text-align: center;
+  }
+}

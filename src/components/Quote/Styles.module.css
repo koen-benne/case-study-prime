@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 100px;
+  margin-top: 50px;
+
+  .title {
+    margin-bottom: 20px;
+  }
+
+  .quote {
+    line-height: 1.5em;
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+    &::before {
+      font-weight: 600;
+      content: "“";
+      font-size: 2.2em;
+      margin-right: 10px;
+      color: #677AC0;
+    }
+    &::after {
+      font-weight: 600;
+      content: "”";
+      font-size: 2em;
+      margin-left: 10px;
+      color: #677AC0;
+    }
+  }
+}
