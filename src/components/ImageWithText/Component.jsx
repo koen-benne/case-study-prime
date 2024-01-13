@@ -22,7 +22,7 @@ function ImageWithText(props) {
               )
             } else if (item.type === "button") {
               return (
-                <a href={item.link} class={styles.link}>
+                <a href={item.link} class={styles.link} target="_blank">
                   {item.text}
                 </a>
               )

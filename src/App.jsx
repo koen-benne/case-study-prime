@@ -32,12 +32,12 @@ function App() {
   const content2 = [
     {
       type: "paragraph",
-      text: "Om de opdracht en de doelgroep beter te begrijpen zijn wij onderzoek gaan doen. Wij zijn begonnen met het doen van veel deskresearch. Wij hebben hierbij onderzoek gedaan naar dingen zoals het onderwerp zelf, het gebruik van de IP-car, de doelgroep en naar potentiële uitwerkingen.\n\nMeer weten? Download onze Design Srint & Research Report.",
+      text: "Om de opdracht en de doelgroep beter te begrijpen zijn wij onderzoek gaan doen. Wij zijn begonnen met het doen van veel deskresearch. Wij hebben hierbij onderzoek gedaan naar dingen zoals het onderwerp zelf, het gebruik van de IP-car, de doelgroep en naar potentiële uitwerkingen.\n\nMeer weten? Bekijk onze Design Srint & Research Report.",
     },
     {
       type: "button",
-      text: "Download Design Sprint & Research Report",
-      link: "drive-link"
+      text: "Design Sprint & Research Report",
+      link: "https://hrnl-my.sharepoint.com/:b:/g/personal/1014102_hr_nl/EaFWBaUPjmNJpWjYqYjwg2YBykpr3vQT-3kYPhvvA18wtg?e=th8EXT"
     }
   ]
 
@@ -125,10 +125,10 @@ function App() {
           left={false}
         />
         <h2>Gekozen Concept</h2>
-        <p style={{padding: "0 100px"}}>We hebben na onze assessment besloten om de twee interfaces samen te voegen op basis van de feedback die we hebben gekregen bij het testen. Zodoende hebben we meerdere interaties gemaakt en getest met het gekozen gecombineerde concept.</p>
+        <p class={styles.textBlock}>We hebben na onze assessment besloten om de twee interfaces samen te voegen op basis van de feedback die we hebben gekregen bij het testen. Zodoende hebben we meerdere interaties gemaakt en getest met het gekozen gecombineerde concept.</p>
         <Divider title="Prototype" />
         <h2>Prototype 1</h2>
-        <p style={{padding: "0 300px"}}>In het eerste prototype hebben we de twee concepten bij elkaar toegevoegd. Hierin hebben we de beste punten van de concepten gebruikt zoals: het inlog stappenplan, de kaart om te zien waar de IP-car staat en de informatie op het rij-scherm.</p>
+        <p class={styles.textBlock}>In het eerste prototype hebben we de twee concepten bij elkaar toegevoegd. Hierin hebben we de beste punten van de concepten gebruikt zoals: het inlog stappenplan, de kaart om te zien waar de IP-car staat en de informatie op het rij-scherm.</p>
         <Images images={[
           {image: "/images/prototype-1-1.png", alt: "prototype-1-1"},
           {image: "/images/prototype-1-2.png", alt: "prototype-1-2"},
@@ -149,7 +149,7 @@ function App() {
         />
         <div class={styles.line} />
         <h2>Prototype 2</h2>
-        <p style={{padding: "0 300px"}}>In het tweede prototype hebben we de testresultaten van het vorige prototype toegepast. Zo zijn er grotere knoppen toegevoegd, kan je bij de instellingen wisselen van auto en hoef je bij het stappenplan niet meer te klikken op een knop.</p>
+        <p class={styles.textBlock}>In het tweede prototype hebben we de testresultaten van het vorige prototype toegepast. Zo zijn er grotere knoppen toegevoegd, kan je bij de instellingen wisselen van auto en hoef je bij het stappenplan niet meer te klikken op een knop.</p>
         <Images images={[
           {image: "/images/prototype-2-1.png", alt: "prototype-2-1"},
           {image: "/images/prototype-2-2.png", alt: "prototype-2-2"},
@@ -170,7 +170,7 @@ function App() {
         />
         <div class={styles.line} />
         <h2>Prototype 3</h2>
-        <p style={{padding: "0 300px"}}>In het derde prototype hebben we de testresultaten van het vorige prototype toegepast. Zo staat er nu niet meer bij het rijscherm km/u maar zijn er drie standen. Daarnaast was er bij dit scherm ook nog teveel info, dit hebben we ook zo min mogelijk gemaakt en allemaal onderin een balk gedaan zodat het basic is en niet teveel informatie. Als laatste hebben we ook de instellingen anders vormgegeven waar je de auto’s kan toevoegen, hierdoor werd het veel overzichtelijker.</p>
+        <p class={styles.textBlock}>In het derde prototype hebben we de testresultaten van het vorige prototype toegepast. Zo staat er nu niet meer bij het rijscherm km/u maar zijn er drie standen. Daarnaast was er bij dit scherm ook nog teveel info, dit hebben we ook zo min mogelijk gemaakt en allemaal onderin een balk gedaan zodat het basic is en niet teveel informatie. Als laatste hebben we ook de instellingen anders vormgegeven waar je de auto’s kan toevoegen, hierdoor werd het veel overzichtelijker.</p>
         <Images images={[
           {image: "/images/prototype-3-1.png", alt: "prototype-3-1"},
           {image: "/images/prototype-3-2.png", alt: "prototype-3-2"},
@@ -258,11 +258,12 @@ function App() {
         />
         <div class={styles.thingContainer}>
           <div class={styles.card}>
-            <p class={styles.text}>Meer weten over het definitieve prototype? Kilk dan op de onderstaande knoppen die leiden naar de clickable Figma prototype en naar de werkende webapp.</p>
+            {/* <p class={styles.text}>Meer weten over het definitieve prototype? Kilk dan op de onderstaande knoppen die leiden naar het clickable Figma prototype en naar de werkende webapp.</p> */}
+            <p class={styles.text}>Meer weten over het definitieve prototype? Kilk dan op de onderstaande knoppen die leiden naar het clickable Figma prototype.</p>
           </div>
           <div class={styles.buttons}>
-            <a href="" class={styles.button}>Figma clickable prototype</a>
-            <a href="" class={styles.button}>React JS webapp</a>
+            <a href="https://www.figma.com/proto/JlpotDCEhHfIYF6gLl9rZN/Team-Prime?type=design&node-id=1678-5016&viewport=2131%2C-4277%2C0.07&t=ZIkpnD7Ld2e0Z0nJ-0&scaling=min-zoom&starting-point-node-id=1678%3A5550&disable-default-keyboard-nav=1&hide-ui=1" class={styles.button} target="_blank">Figma clickable prototype</a>
+            {/* <a href="" class={styles.button} target="_blank">React JS webapp</a> */}
           </div>
         </div>
         <h2>Styleguide</h2>

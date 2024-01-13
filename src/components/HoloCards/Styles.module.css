@@ -1,7 +1,7 @@
 .container {
   display: flex;
   gap: 50px;
-  flex-direction: row;
+  flex-direction: column;
   align-items: start;
 
   .card {
@@ -9,7 +9,6 @@
     flex: 1 1 0px;
     border-radius: 30px;
     background: linear-gradient(250deg, #B318EA, #1AAD9C);
-    min-height: 420px;
 
     &::before {
       content: "";
@@ -42,6 +41,16 @@
       padding: 30px;
       text-align: center;
       color: black;
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  .container {
+    flex-direction: row;
+    gap: 50px;
+    .card {
+      min-height: 420px;
     }
   }
 }
