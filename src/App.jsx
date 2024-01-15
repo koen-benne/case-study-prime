@@ -17,15 +17,7 @@ function App() {
   const content1 = [
     {
       type: "paragraph",
-      text: "Aan het begin van het project werd er een design sprint gehouden. Tijdens deze design sprint gingen we in een week een heel ontwerpproces doorlopen. Daarom hadden wij aan het einde van dezze design sprint een weekend en getest prototype waar wij weer mee verder konden. Hier kwamen wij door eerest een aantal oplossingen te verzinnen voor onze opdracht. Een van deze oplossingen was de uitbreiding van de IP-car door middel van VR. De reden hierachter was om zo de ervaring die de gebruikers hebben te verrijken. Dit hebben wij vervolgens geprototyped door met een 360 graden camera te filmen en deze beelden om te zetten naar VR. Tijdens de laatste dag van de designsprint hebben wij dit prototype getest met een aantal medestudenten. Hier haalden wij verschillende resultaten uit zoals:"
-    },
-    {
-      type: "list",
-      content: [
-        "Niet iedereen kan tegen VR dus hoe ga je dat doen",
-        "Heel leuk, de hele tijd aan het lachen",
-        "Als ze echt zelf niet naar buiten kunnen dan denk ik dat het wel helpt"
-      ]
+      text: "Aan het begin van het project werd er een design sprint gehouden. Tijdens deze design sprint gingen we in een week een heel ontwerpproces doorlopen. Daarom hadden wij aan het einde van deze design sprint een werkend en getest prototype waar wij weer mee verder konden. Hier kwamen wij door eerst een aantal oplossingen te verzinnen voor onze opdracht. Een van deze oplossingen was de uitbreiding van de IP-car door middel van VR. De reden hierachter was om zo de ervaring die de gebruikers hebben te verrijken. Dit hebben wij vervolgens geprototyped door met een 360 graden camera te filmen en deze beelden om te zetten naar VR. Tijdens de laatste dag van de designsprint hebben wij dit prototype getest met een aantal medestudenten. Hier haalden wij verschillende resultaten uit zoals:"
     }
   ];
 
