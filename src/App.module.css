@@ -38,6 +38,8 @@ p {
 }
 
 .content {
+  max-width:1600px;
+  margin: 0 auto;
   padding: 0 35px;
   text-align: center;
 }
@@ -74,6 +76,8 @@ p {
 .video {
   width: calc(100vw - 200px);
   height: calc((100vw - 200px) * 0.5625);
+  max-width: 1200px;
+  max-height: calc(1200px * 0.5625);
   border-radius: 20px;
   margin-bottom: 50px;
 }
