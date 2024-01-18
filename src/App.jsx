@@ -250,12 +250,11 @@ function App() {
         />
         <div class={styles.thingContainer}>
           <div class={styles.card}>
-            {/* <p class={styles.text}>Meer weten over het definitieve prototype? Kilk dan op de onderstaande knoppen die leiden naar het clickable Figma prototype en naar de werkende webapp.</p> */}
-            <p class={styles.text}>Meer weten over het definitieve prototype? Kilk dan op de onderstaande knoppen die leiden naar het clickable Figma prototype.</p>
+            <p class={styles.text}>Meer weten over het definitieve prototype? Klik dan op de onderstaande knoppen die leiden naar het clickable Figma prototype en naar de werkende webapp.</p>
           </div>
           <div class={styles.buttons}>
             <a href="https://www.figma.com/proto/JlpotDCEhHfIYF6gLl9rZN/Team-Prime?type=design&node-id=1678-5016&viewport=2131%2C-4277%2C0.07&t=ZIkpnD7Ld2e0Z0nJ-0&scaling=min-zoom&starting-point-node-id=1678%3A5550&disable-default-keyboard-nav=1&hide-ui=1" class={styles.button} target="_blank">Figma clickable prototype</a>
-            {/* <a href="" class={styles.button} target="_blank">React JS webapp</a> */}
+            <a href="https://koen-benne.github.io/remobility-app/" class={styles.button} target="_blank">React JS webapp</a>
           </div>
         </div>
         <h2>Styleguide</h2>
